@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/skip1113/Skips-Portfolio/issues"
   },
-  "homepage": "https://github.com/skip1113/Skips-Portfolio#readme"
+  "homepage": "https://github.com/skip1113/Skips-Portfolio#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
