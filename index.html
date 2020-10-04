@@ -15,8 +15,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <button>Click me</button>
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="#top">
+                  <!-- Brand Image here -->
+                  SKIP KHAMVONGSA
+              </a>
+            </div>
+            <div class="navbar-menu" id="nav-menu">
+                <div class="navbar-start"></div>
+                <div class="navbar-end">
+                    <ul class="nav justify-content-end" style="flex-wrap: nowrap;">
+                        <li class="nav-item">
+                            <a href="/about" id="about-link">ABOUT</a>
+                        </li>
+                        <br>
+                        <li class="nav-item">
+                            <a href="/portfolio" id="portfolio-link">PORTFOLIO</a>
+                        </li>
+                        <br>
+                        <li class="nav-item">
+                            <a href="/contact" id="contact-link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <!-- Bootstrap and Javascript CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
