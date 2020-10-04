@@ -1,3 +1,11 @@
+.navbar .container a{
+    text-decoration: none;
+}
+.navbar .navbar-menu .nav a {
+    margin: 10px;
+    font-size: 18px;
+}
+
 footer .social-icons {
     font-size: 1.5em;
 }
