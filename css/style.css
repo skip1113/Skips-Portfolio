@@ -2,7 +2,7 @@
     position: sticky;
 }
 .navbar-fixed-top {
-    background-color: darkmagenta;
+    background-color: rgb(87, 2, 87);
     top: 0;
     /* left: 0; */
     position: sticky;
@@ -10,6 +10,7 @@
 }
 .navbar .container a{
     text-decoration: none;
+    color: white;
 }
 .navbar .navbar-menu .nav a {
     margin: 10px;
@@ -22,13 +23,28 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.portfolio {
+    background-color: #f5f5f5
+}
 #intro-title {
     color: white;
 }
 #intro-sub {
     color: white;
 }
+footer {
+    background-color: #141c3a;
+    /* bottom: 0; */
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+footer .copyright {
+    color: white;
+}
 footer .social-icons {
     font-size: 1.5em;
+}
+footer .social-icons a {
+    color: white;
+    margin: 5px;
 }
