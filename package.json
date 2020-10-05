@@ -19,6 +19,7 @@
   "homepage": "https://github.com/skip1113/Skips-Portfolio#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.0",
+    "bootstrap-scss": "^4.5.2",
     "jquery": "^3.5.1"
   }
 }

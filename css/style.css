@@ -1,3 +1,13 @@
+.navbar {
+    position: sticky;
+}
+.navbar-fixed-top {
+    background-color: darkmagenta;
+    top: 0;
+    /* left: 0; */
+    position: sticky;
+    /* bottom: inherit; */
+}
 .navbar .container a{
     text-decoration: none;
 }
@@ -9,6 +19,8 @@
     background-image: url("https://cdn.lowgif.com/full/40c5bcd0951917d0-pleiades-date-night-catch-a-falling-star-cosmos-pinterest.gif");
     /* height: 100%; */
     padding: 23%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #intro-title {
