@@ -113,6 +113,7 @@ footer .social-icons a {
 .animation-section .box .title .block {
   width: 0%;
   height: inherit;
+  margin-top: 12px;
   background: #2c82c9;
   position: absolute;
   -webkit-animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
