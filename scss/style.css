@@ -64,6 +64,36 @@ footer .social-icons a {
   margin: 5px;
 }
 
+#linkedin,
+#github,
+#email-link,
+#twitter {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition: ease-in-out 300ms;
+  transition: ease-in-out 300ms;
+  margin: 6px;
+}
+
+#linkedin:hover {
+  color: #0077b5;
+  border-radius: 10%;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+#github:hover {
+  color: black;
+}
+
+#email-link:hover {
+  color: lightskyblue;
+}
+
+#twitter:hover {
+  color: #3b5998;
+}
+
 * {
   margin: 0;
   padding: 0;

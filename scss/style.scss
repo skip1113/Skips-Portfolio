@@ -50,6 +50,32 @@ footer .social-icons a {
     color: white;
     margin: 5px;
 }
+#linkedin,
+#github,
+#email-link,
+#twitter {
+  transition-property: all;
+  transition: ease-in-out 300ms;
+  margin: 6px;
+}
+
+#linkedin:hover {
+  color: #0077b5;
+  border-radius: 10%;
+  transform: rotateX(180deg);
+}
+
+#github:hover {
+  color: black;
+}
+
+#email-link:hover {
+  color:lightskyblue;
+}
+
+#twitter:hover {
+  color: #3b5998;
+}
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 
 * {
