@@ -85,10 +85,12 @@ footer .social-icons a.button {
 footer .social-icons a.button .icon.is-small {
   height: 1.4em;
   width: 1.4em;
+  // color: white;
 }
 .button .icon:first-child:last-child {
   margin-left: 2px;
   margin-right: 2px;
+  // color: white;
 }
 .icon {
   -webkit-box-align: center;
@@ -108,33 +110,27 @@ footer .social-icons a.button .icon.is-small {
   display: -webkit-inline-box;
   -webkit-box-pack: center;
   align-items: center;
-  // text-align: center;
-  // border-radius: 100%;
-  // background-color: transparent;
-  // color: white;
-  // border: 2px solid rgba(255, 255, 255, 0.3);
-  // height: 1.4em;
-  // width: 1.4em;
-  // text-align: center;
 }
 
 #linkedin:hover {
   color: #0077b5;
+  background-color: white;
   // transform: rotateX(180deg);
-  // font-size: 1.4em;
-  // text-align: center;
 }
 
 #github:hover {
   color: black;
+  background-color: white;
 }
 
 #email-link:hover {
   color:lightskyblue;
+  background-color: white;
 }
 
 #twitter:hover {
   color: #3b5998;
+  background-color: white;
 }
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 

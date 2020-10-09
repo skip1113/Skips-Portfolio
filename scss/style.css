@@ -124,18 +124,22 @@ footer .social-icons a.button .icon.is-small {
 
 #linkedin:hover {
   color: #0077b5;
+  background-color: white;
 }
 
 #github:hover {
   color: black;
+  background-color: white;
 }
 
 #email-link:hover {
   color: lightskyblue;
+  background-color: white;
 }
 
 #twitter:hover {
   color: #3b5998;
+  background-color: white;
 }
 
 .animation-section {
