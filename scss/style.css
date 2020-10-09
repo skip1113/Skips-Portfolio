@@ -91,6 +91,7 @@ footer .social-icons a {
   -webkit-transition: ease-in-out 300ms;
   transition: ease-in-out 300ms;
   margin: 6px;
+  text-decoration: none;
 }
 
 #linkedin:hover {
