@@ -13,8 +13,14 @@
     color: white;
 }
 .navbar .navbar-menu .nav a {
-    margin: 10px;
+    margin: 14px;
     font-size: 18px;
+    color: #b0b2c3;
+}
+.navbar .navbar-menu .nav a:hover {
+  color: white;
+  font-size: 20px;
+  font-style: oblique;
 }
 #about-section {
     // background-image: url("https://cdn.lowgif.com/full/40c5bcd0951917d0-pleiades-date-night-catch-a-falling-star-cosmos-pinterest.gif");
