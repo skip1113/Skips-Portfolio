@@ -62,24 +62,39 @@
   position: relative;
   width: auto;
 }
-div.column.is-half {
-  align-items: center;
-  -webkit-box-align: center;
-  justify-content: center;
+div.col-2.name-is-half {
+  // float: left;
+  margin: 0 auto;
+  clear: both;
+  margin-left: 25.5%;
+}
+div.col-2.email-is-half {
+  // float: right;
+  margin: 0 auto;
+  clear: both;
+  margin-right: 30%;
+}
+.contact-page .container h1 {
+  text-align: center;
+}
+button.button.is-primary {
+  margin-left: 2%;
 }
 .columns.is-centered {
   -webkit-box-align: center;
   justify-content: center;
-  text-align: center;
+  // text-align: center;
 }
 .textarea {
   max-width: 100%;
-  min-width: 80%;
+  min-width: 70%;
+  margin: 0 auto;
 }
 .control {
   box-sizing: border-box;
   clear: both;
   position: relative;
+  text-align: left;
 }
 footer {
     background-color: #141c3a;
