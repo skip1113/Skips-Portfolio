@@ -39,7 +39,9 @@
   text-align: center;
   font-size: 15px;
 }
-
+.skills .container p {
+  text-align: center;
+}
 .portfolio .container h1 {
   text-align: center;
 }
@@ -54,6 +56,30 @@
 }
 #intro-sub {
     color: white;
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+div.column.is-half {
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+}
+.columns.is-centered {
+  -webkit-box-align: center;
+  justify-content: center;
+  text-align: center;
+}
+.textarea {
+  max-width: 100%;
+  min-width: 80%;
+}
+.control {
+  box-sizing: border-box;
+  clear: both;
+  position: relative;
 }
 footer {
     background-color: #141c3a;
