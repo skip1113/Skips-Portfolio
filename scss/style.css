@@ -40,6 +40,12 @@
   text-align: center;
 }
 
+div.col-sm {
+  -webkit-box-flex: unset;
+      -ms-flex-positive: unset;
+          flex-grow: unset;
+}
+
 .skills .container h1 {
   text-align: center;
 }

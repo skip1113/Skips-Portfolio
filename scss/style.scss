@@ -32,6 +32,9 @@
     background-size: cover;
     text-align: center;
 }
+div.col-sm {
+  flex-grow: unset;
+}
 .skills .container h1 {
   text-align: center;
 }
