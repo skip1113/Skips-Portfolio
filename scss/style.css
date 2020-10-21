@@ -59,6 +59,16 @@ div.col-sm {
   text-align: center;
 }
 
+div.project-buttons {
+  margin: 0 auto;
+  display: table;
+  padding-bottom: 1em;
+}
+
+button.btn.btn-info {
+  margin-right: 5px;
+}
+
 .portfolio .container h1 {
   text-align: center;
 }
