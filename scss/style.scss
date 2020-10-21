@@ -50,7 +50,7 @@ div.project-buttons {
   display: table;
   padding-bottom: 1em;
 }
-button.btn.btn-info {
+a.btn.btn-info {
   margin-right: 5px;
 }
 .portfolio .container h1 {
@@ -100,6 +100,9 @@ button.button.is-primary {
   max-width: 100%;
   min-width: 70%;
   margin: 0 auto;
+}
+div.control.submit-btn {
+  margin-bottom: 0.5em;
 }
 .control {
   box-sizing: border-box;
