@@ -1,11 +1,11 @@
-$(document).ready(function () {
-    const modalText = {
+document.addEventListener('DOMContentLoaded', function() {
+    var modalText = {
         trailsOnTap: {
-            boxTitle: 'Trails on Tap',
-            boxTag: 'Hiking trails & Breweries',
-            boxDetail: 'Trails on Tap is a application for users to simply plan a full adventure with a search of city or zip, to find hiking trails, and breweries. Be outdoors with friends, and receive a reward after your hard work.',
-            boxLink: 'https://github.com/skip1113/class-pro-1',
-            boxDemo: 'https://skip1113.github.io/class-pro-1/views/index.html'
+            title: 'Trails on Tap',
+            tag: 'Hiking trails & Breweries',
+            detail: 'Trails on Tap is a application for users to simply plan a full adventure with a search of city or zip, to find hiking trails, and breweries. Be outdoors with friends, and receive a reward after your hard work.',
+            link: 'https://github.com/skip1113/class-pro-1',
+            demo: 'https://skip1113.github.io/class-pro-1/views/index.html'
         }
     };
 
@@ -14,36 +14,36 @@ $(document).ready(function () {
         fillModal(this.id);
         $('.modal-wrap').addClass('visible');
     });
-    $('.close').on('click', function() {
+    $('.close').on('click', function () {
         $('.modal-wrap, #modal .button').removeClass('visible');
     });
-    $('.mask').on('click', function() {
+    $('.mask').on('click', function () {
         $('.modal-wrap, #modal .button').removeClass('visibile');
     });
 
-    const carousel = $('#carousel'),
-        sideWidth = 700,
+    var carousel = $('#carousel'),
+        slideWidth = 700,
         threshold = slideWidth / 3,
         dragStart,
         dragEnd;
 
     setDimensions();
 
-    $('#next').click(function() {
+    $('#next').on('click', function () {
         shiftSlide(-1);
     });
-    $('#prev').click(function() {
+    $('#prev').on('click', function () {
         shiftSlide(1);
     });
 
-    carousel.on('mousedown', function() {
+    carousel.on('mousedown', function () {
         if (carousel.hasClass('transition')) return;
-        dragStart = event.pageX;
-        $(this).on('mousemove', function() {
+        dragStart = Event.pageX;
+        $(this).on('mousemove', function () {
             if (dragPos() > threshold) {
                 return shiftSlide(1);
             }
-            if(dragPos() < -threshold) {
+            if (dragPos() < -threshold) {
                 return shiftSlide(-1);
             }
             shiftSlide(0);
@@ -72,10 +72,10 @@ $(document).ready(function () {
         dragEnd = dragStart;
         $(document).off('mouseup');
         carousel
-        .off('mousemove')
-        .addClass('transition')
-        .css('transform', 'translateX(' + direction * slideWidth + 'px)');
-        setTimeout(function() {
+            .off('mousemove')
+            .addClass('transition')
+            .css('transform', 'translateX(' + direction * slideWidth + 'px)');
+        setTimeout(function () {
             if (direction === 1) {
                 $('.slide:first').before($('.slide:last'));
             } else if (direction === -1) {
@@ -87,30 +87,30 @@ $(document).ready(function () {
     };
 
     function fillModal(id) {
-        $('#modal .boxTitle').text(modalText[id].boxTitle);
-        $('#modal .boxDetail').text(modalText[id].boxDetail);
-        $('#modal .boxTag').text(modalText[id].boxTag);
-        if (modalText[id].boxLink)
+        $('#modal .title').text(modalText[id].title);
+        $('#modal .detail').text(modalText[id].detail);
+        $('#modal .tag').text(modalText[id].tag);
+        if (modalText[id].link)
             $('#modal .button')
                 .addClass('visibile')
                 .parent()
-                .attr('href', modalText[id].boxLink);
-        if (modalText[id].boxDemo)
+                .attr('href', modalText[id].link);
+        if (modalText[id].demo)
             ('#modal .button')
                 .addClass('visible')
                 .parent()
-                .attr('href', modalText[id].boxDemo);
+                .attr('href', modalText[id].demo);
 
-                $.each($('#modal li'), function(index, value) {
-                    $(this).text(modalText[id].bullets[index]);
-                });
-                $.each($('#modal li'), function(index, value) {
-                    $(this).css({
-                        background:
-                        "url('img/" + id + '-' + index + ".jpg') center center/cover",
-                        backgroundSize: 'cover'
-                    });
-                });
+        $.each($('#modal li'), function (index, value) {
+            $(this).text(modalText[id].bullets[index]);
+        });
+        $.each($('#modal li'), function (index, value) {
+            $(this).css({
+                background:
+                    "url('img/slides" + id + '-' + index + ".png') center center/cover",
+                backgroundSize: 'cover'
+            });
+        });
     };
 });
 
