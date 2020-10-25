@@ -51,6 +51,10 @@ div.col-sm {
           flex-grow: unset;
 }
 
+section.section.skills {
+  margin-bottom: 1rem;
+}
+
 .skills .container h1 {
   text-align: center;
 }
@@ -112,6 +116,7 @@ a.btn.btn-info {
   padding: 0rem 2rem;
   color: #fff;
   z-index: 1;
+  text-align: center;
 }
 
 .portfolio .portfolio-grid figure img {
@@ -132,7 +137,7 @@ a.btn.btn-info {
 }
 
 .portfolio .portfolio-grid .overlay {
-  background-color: #232323;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .portfolio .portfolio-grid figure:hover img {
