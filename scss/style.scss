@@ -40,7 +40,8 @@ div.col-sm {
   flex-grow: unset;
 }
 section.section.skills {
-  margin-bottom: 1rem;
+  background-color: #f3f3f3;
+  padding-bottom: 1rem;
 }
 .skills .container h1 {
   text-align: center;
@@ -67,7 +68,7 @@ a.btn.btn-info {
   text-align: center;
 }
 .portfolio {
-    background-color: #f5f5f5
+    background-color: #f3f3f3;
 }
 .portfolio .portfolio-grid figure {
   position: relative;
