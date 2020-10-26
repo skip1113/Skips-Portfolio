@@ -1,11 +1,18 @@
-document.addEventListener('DOMContentLoaded', function() {
+$(document).ready(function() {
     var modalText = {
         trailsOnTap: {
             title: 'Trails on Tap',
-            tag: 'Hiking trails & Breweries',
+            tag: 'Hiking Trails & Breweries',
             detail: 'Trails on Tap is a application for users to simply plan a full adventure with a search of city or zip, to find hiking trails, and breweries. Be outdoors with friends, and receive a reward after your hard work.',
             link: 'https://github.com/skip1113/class-pro-1',
             demo: 'https://skip1113.github.io/class-pro-1/views/index.html'
+        },
+        hootHolla: {
+            title: 'Hoot & Holla',
+            tag: 'Blog Social Media',
+            detail: 'Hoot to post a blog, and Holla at a friend. This application uses authentication for users to create an account, post their blogs, and see other users blogs.',
+            link: 'https://github.com/Ragnorok303/Project2DBC',
+            demo: 'https://pure-peak-54891.herokuapp.com/login'
         }
     };
 
