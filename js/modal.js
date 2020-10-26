@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var modalText = {
-        trailsOnTap: {
+        trails: {
             title: 'Trails on Tap',
             tag: 'Hiking Trails & Breweries',
             detail: 'Trails on Tap is a application for users to simply plan a full adventure with a search of city or zip, to find hiking trails, and breweries. Be outdoors with friends, and receive a reward after your hard work.',
@@ -17,7 +17,7 @@ $(document).ready(function() {
     };
 
     $('#gallery .button').on('click', function () {
-        // alert("you've clicked");
+        console.log(this.id);
         fillModal(this.id);
         $('.modal-wrap').addClass('visible');
     });
@@ -94,6 +94,8 @@ $(document).ready(function() {
     };
 
     function fillModal(id) {
+        console.log(modalText.title);
+        console.log(modalText[id]);
         $('#modal .title').text(modalText[id].title);
         $('#modal .detail').text(modalText[id].detail);
         $('#modal .tag').text(modalText[id].tag);
