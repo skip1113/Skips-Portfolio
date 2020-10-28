@@ -16,18 +16,43 @@ $(document).ready(function() {
         }
     };
     var modal = document.getElementById('modal');
+    // var close = document.getElementByClassName('close')
     $('#gallery .button').on('click', function () {
         console.log(this.id);
         fillModal(this.id);
         $('.modal-wrap').addClass('visible')
-        .css('z-index', 1);
+        .css({
+            zIndex: 1,
+            position: 'fixed' });
         modal.style.display = 'block';
     });
     $('.close').on('click', function () {
         $('.modal-wrap, #modal .button').removeClass('visible');
+        modal.style.display = 'none';
     });
+    // window.addEventListener('click', function(event) {
+    //     if (event.target == modal) {
+    //         $('.modal-wrap, #modal .button').removeClass('visibile');
+    //         modal.style.display = 'none';
+    //     }
+    // });
+    $(window).click(function(e) {
+        if (e.target == modal) {
+            $('.modal-wrap, #modal .button').removeClass('visibile');
+
+            modal.style.display = 'none';
+        }
+    })
+    // window.onClick = function(event) {
+    //     if (event.target == modal) {
+    //         $('.modal-wrap, #modal .button').removeClass('visibile');
+
+    //         modal.style.display = 'none';
+    //     }
+    // };
     $('.mask').on('click', function () {
         $('.modal-wrap, #modal .button').removeClass('visibile');
+        // modal.style.display = 'none';
     });
 
     var carousel = $('#carousel'),

@@ -69,22 +69,15 @@ a.pro-btn {
 div.modal-wrap.flex.visible {
   height: 100vh;
   width: 100vw;
-  z-index: 1;
+  // position: fixed;
 }
 .modal-wrap .mask {
-  // background: rgba(0, 0, 0, 0.5);
-  // height: 100%;
-  // left: 0;
-  // opacity: 0;
-  position: absolute;
-  // top: 0;
   // // -webkit-transition: opacity 0.3s;
   // transition: opacity 0.3s;
-  // width: 100%;
   display: none; /* Hidden by default */
-  // position: fixed; /* Stay in place */
+  position: fixed; /* Stay in place */
   z-index: 100; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  // padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -105,9 +98,9 @@ div.modal-wrap.flex.visible {
   text-align: left;
   transform: scale(0.8);
   transition: all 0.3s;
-  z-index: 100;
+  // z-index: 100;
   background-color: #fefefe;
-  // margin: auto;
+  margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
