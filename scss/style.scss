@@ -66,9 +66,8 @@ a.pro-btn {
   margin: 8px;
   text-decoration: none;
 }
-.modal-wrap {
+div.modal-wrap.flex.visible {
   height: 100vh;
-  position: absolute !important; 
   width: 100vw;
   z-index: 1;
 }
@@ -138,6 +137,9 @@ a.pro-btn {
   border-top: 3px solid #1b242f;
   box-sizing: border-box;
   color: #444;
+}
+section {
+  z-index: 0;
 }
 .portfolio .container h1 {
   text-align: center;

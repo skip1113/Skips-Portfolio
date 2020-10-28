@@ -19,7 +19,8 @@ $(document).ready(function() {
     $('#gallery .button').on('click', function () {
         console.log(this.id);
         fillModal(this.id);
-        $('.modal-wrap').addClass('visible');
+        $('.modal-wrap').addClass('visible')
+        .css('z-index', 1);
         modal.style.display = 'block';
     });
     $('.close').on('click', function () {
