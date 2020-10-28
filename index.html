@@ -24,373 +24,382 @@
 </head>
 
 <body>
-    <!-- Modal -->
-    <div class="modal-wrap flex">
-        <div class="mask"></div>
-        <div class="modal" id="modal" style="max-width: 700px;">
-            <div class="carousel-wrap" style="width: 700px;">
-                <div class="window">
-                    <div id="carousel" style="left: -700px;">
-                        <div class="slide" style="width: 700px;"></div>
-                        <div class="slide" style="width: 700px;"></div>
-                        <div class="slide" style="width: 700px;"></div>
-                    </div>
-                    <i class="fa fa-chevron-left" id="prev"></i>
-                    <i class="fa fa-chevron-right" id="next"></i>
-                </div>
-            </div>
-            <div class="info-box">
-                <div class="title"></div>
-                <div class="tag"></div>
-                <div class="detail">
-                    <a href="#" target="_blank"><div class="button">VIEW SOURCE</div></a>
-                    <!-- <a href="#" target="_blank"><div class="buttonDemo">VIEW SITE</div></a> -->
-                </div>
-            </div>
-            <i class="close fa fa-times"></i>
-        </div>
-    </div>
-    <!-- Home -->
-    <nav class="navbar sticky-top navbar-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="#top">
-                    <!-- Brand Image here -->
-                    SKIP KHAMVONGSA
-                </a>
-            </div>
-            <div class="navbar-menu" id="nav-menu">
-                <div class="navbar-start"></div>
-                <div class="navbar-end">
-                    <ul class="nav justify-content-end" style="flex-wrap: nowrap;">
-                        <li class="nav-item">
-                            <a href="#about-section" id="about-link">ABOUT</a>
-                        </li>
-                        <br>
-                        <li class="nav-item">
-                            <a href="#portfolio-section" id="portfolio-link">PORTFOLIO</a>
-                        </li>
-                        <br>
-                        <li class="nav-item">
-                            <a href="#contact-intro" id="contact-link">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <section class="animation-section">
-        <div class="box">
-
-            <div class="title">
-                <span class="block"></span>
-                <h1>Full-stack Developer, UI/UX Passion & Tech Enthusiast<span></span></h1>
-            </div>
-            <br>
-            <div class="role">
-                <div class="block"></div>
-                <p>I enjoy coding to expand my knowledge and show my asthetics.</p>
-            </div>
-
-        </div>
-    </section>
-    <section class="page-section about" id="about-section">
-        <div class="container">
-            <div class="columns is-centered">
-                <div class="column">
-                    <h1 class="title">Hello, I'm Skip. It's my real name!</h1>
-                    <h2 class="subtitle">If there's anything amazing about programming, it is the ability to create
-                        anything and show your creativity. Ever since I began learning Web Development I came to realize
-                        that this was something I enjoyed to do. With an abundance of technologies and libraries there's
-                        so much to expand your knowledge with.
-                    </h2>
-                    <h2>I'm confident in my ability to stay calm and stick with a challenge to completion.
-                        Wether it be debugging syntax errors or just logging "Hello World" to the terminal,
-                        there's always satisfaction seeing working code.
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section skills">
-        <div class="container">
-            <h1 class="skills-title">
-                Skill Set
-            </h1>
-            <!-- <h2 class="skills-subtitle">My knowledge of technical skills</h2> -->
-            <div class="row">
-                <div class="col-md">
-                    <div class="card">
-                        <div class="content">
-                            <div class="columns is-centered">
-                                <div class="column">
-                                    <h1 class="lang-title">Languages</h1>
-                                    <p id="lang-items">HTML, CSS, JavaScript, PHP, SQL, API, XML</p>
-                                </div>
-                            </div>
+    <div class="overflow-wrap">
+        <div class="modal-wrap flex" style="position: absolute;">
+            <div class="mask"></div>
+            <div class="modal" id="modal" style="max-width: 700px;">
+                <div class="carousel-wrap" style="width: 700px;">
+                    <div class="window">
+                        <div id="carousel" style="left: -700px;">
+                            <div class="slide" style="width: 700px;"></div>
+                            <div class="slide" style="width: 700px;"></div>
+                            <div class="slide" style="width: 700px;"></div>
                         </div>
+                        <i class="fa fa-chevron-left" id="prev"></i>
+                        <i class="fa fa-chevron-right" id="next"></i>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="card">
-                        <div class="content">
-                            <div class="columns is-centered">
-                                <div class="column">
-                                    <h1 class="framework-title">Libraries & Frameworks</h1>
-                                    <p id="library-items">React.js, Express, Ajax, Axios, jQuery, Bootstrap, Bulma,
-                                        Materialize,
-                                        Passport, Node.js, ESLint, Mocha, Laravel</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="infobox">
+                    <div class="title"></div>
+                    <div class="tag"></div>
+                    <div class="detail">
+                        <a href="#" target="_blank">
+                            <div class="button">VIEW SOURCE</div>
+                        </a>
+                        <!-- <a href="#" target="_blank"><div class="buttonDemo">VIEW SITE</div></a> -->
                     </div>
                 </div>
-
-                <div class="col-md">
-                    <div class="card">
-                        <div class="content">
-                            <div class="columns is-centered">
-                                <div class="column">
-                                    <h1 class="tools-title">Tools</h1>
-                                    <p id="tool-items">Git, GitHub, Heroku, GitLab, DevTools, Postman, SASS</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <section class="section portfolio" id="portfolio-section">
-        <div class="container" id="gallery">
-            <div class="row">
-                <div class="col align-self-center">
-                    <h1 class="title">My Work</h1>
-                    <h2 class="subtitle">Feel free to look at a few of my projects & work</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col align-self-center">
-                    <div class="project-buttons">
-                        <a class="pro-btn">All</a>
-                        <a class="pro-btn">Projects</a>
-                        <a class="pro-btn">Apps</a>
-                        <a class="pro-btn">More</a>
-                    </div>
-
-                </div>
-            </div>
-            <div class="portfolio-grid" id="gallery">
-                <div class="row" id="project-list">
-                    <div class="col-sm" data-my-order="1">
-                        <figure class="image is-3by2">
-                            <img class="portfolio-img" src="img/trails-img.jpg" width="350" height="220">
-                            <figcaption>
-                                <p class="project-title">Plan a hike that awards
-                                    you after your hard work.
-                                </p>
-                                <button class="button" id="trails">Learn More</button>
-                            </figcaption>
-                            <div class="overlay"></div>
-                        </figure>
-                    </div>
-                    <div class="col-sm" data-my-order="1">
-                        <figure class="image is-3by2">
-                            <img class="portfolio-img" src="img/owl-background.jpg" width="350" height="220">
-                            <figcaption>
-                                <p class="project-title">Blog and express your self through "Hoots" and "Holla" at some
-                                    friends.</p>
-                                <a class="button" id="hootholla">Learn More</a>
-                            </figcaption>
-                            <div class="overlay"></div>
-                        </figure>
-                    </div>
-                    <div class="col-sm" data-my-order="1">
-                        <figure class="image is-3by2">
-                            <img class="portfolio-img" src="img/date-night.jpg" width="350" height="220">
-                            <figcaption>
-                                <p class="project-title">Never forget date night again. Simply find events
-                                    resturants and save them for you special nights.
-                                </p>
-                                <a class="button" id="nitinerary">Learn More</a>
-                            </figcaption>
-                            <div class="overlay"></div>
-                        </figure>
-                    </div>
-                </div>
-                <div class="row" id="second-list">
-                    <div class="col-sm" data-my-order="1">
-                        <figure class="image is-3by2">
-                            <img class="portfolio-img" src="img/web-scraping.jpg" width="350" height="220">
-                            <figcaption>
-                                <p class="app-title">
-                                    Enjoy some articles scraped from Time Magazine. Read saved articles and scrape new
-                                    ones
-                                    each day.
-                                </p>
-                                <a href="https://github.com/skip1113/Scraping-Mongo" target="_blank">Learn More</a>
-                            </figcaption>
-                            <div class="overlay"></div>
-                        </figure>
-                    </div>
-                    <div class="col-sm" data-my-order="1">
-                        <figure class="image is-3by2">
-                            <img class="portfolio-img" src="img/bam-cli.png" width="350" height="220">
-                            <figcaption>
-                                <p class="app-title">
-                                    "Bamazon" Store front CLI Application. Manage, buy, and sell inventory with commands
-                                    in
-                                    your terminal.
-                                </p>
-                                <a href="https://github.com/skip1113/bamazon" target="_blank">Learn More</a>
-                            </figcaption>
-                            <div class="overlay"></div>
-                        </figure>
-                    </div>
-                    <div class="col-sm" data-my-order="1">
-                        <figure class="image is-3by2">
-                            <img class="portfolio-img" src="img/liri-cli.png" width="350" height="220">
-                            <figcaption>
-                                <p class="app-title">
-                                    Liri bot CLI. Command your terminal to search for movies, concerts, and songs all in
-                                    one
-                                    bot.
-                                </p>
-                                <a href="https://github.com/skip1113/Liri-node-app" target="_blank">Learn More</a>
-                            </figcaption>
-                            <div class="overlay"></div>
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="row" id="apps-list">
-                    <div class="col-sm" data-my-order="1">
-                        <figure class="image is-3by2">
-                            <img class="portfolio-img" src="img/book-list.png" width="350" height="220">
-                            <figcaption>
-                                <p class="app-title">
-                                    Find millions of authors and books to read. Save and create a list novels
-                                    to read or to archive.
-                                </p>
-                                <a href="https://github.com/skip1113/google-books" target="_blank">Learn More</a>
-                            </figcaption>
-                            <div class="overlay"></div>
-                        </figure>
-                    </div>
-                    <div class="col-sm" data-my-order="1">
-                        <figure class="image is-3by2">
-                            <img class="portfolio-img" src="img/departure-board.jpg" width="350" height="220">
-                            <figcaption>
-                                <p class="app-title">
-                                    Train Scheduler, retrieves and manipulates information that calculates
-                                    departures and arrivals with current time-zones.
-                                </p>
-                                <a href="https://github.com/skip1113/FireTrain" target="_blank">Learn More</a>
-                            </figcaption>
-                            <div class="overlay"></div>
-                        </figure>
-                    </div>
-                    <div class="col-sm" data-my-order="1">
-                        <figure class="image is-3by2">
-                            <img class="portfolio-img" src="img/eighties.jpg" width="350" height="220">
-                            <figcaption>
-                                <p class="app-title">
-                                    Take it back to the 80s bands guessing game with each key stroke, hangman style!
-                                </p>
-                                <a href="https://github.com/skip1113/Word-Guess-Game" target="_blank">Learn More</a>
-                            </figcaption>
-                            <div class="overlay"></div>
-                        </figure>
-                    </div>
-                </div>
+                <i class="close fa fa-times"></i>
             </div>
         </div>
 
-    </section>
-    <section class="section contact-page" id="contact-intro">
-        <div class="container">
-            <div class="columns is-centered">
-                <div class="column is-three-quarters">
-                    <h1 class="title">Get in Touch!</h1>
+            <!-- Modal -->
+
+            <!-- Home -->
+            <nav class="navbar sticky-top navbar-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="#top">
+                        SKIP KHAMVONGSA
+                    </a>
+                </div>
+                <div class="navbar-menu" id="nav-menu">
+                    <div class="navbar-start"></div>
+                    <div class="navbar-end">
+                        <ul class="nav justify-content-end" style="flex-wrap: nowrap;">
+                            <li class="nav-item">
+                                <a href="#about-section" id="about-link">ABOUT</a>
+                            </li>
+                            <br>
+                            <li class="nav-item">
+                                <a href="#portfolio-section" id="portfolio-link">PORTFOLIO</a>
+                            </li>
+                            <br>
+                            <li class="nav-item">
+                                <a href="#contact-intro" id="contact-link">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="contact-form">
-        <div class="container">
-            <form id="form-field">
-                <div class="row justify-content-start">
-                    <div class="col-2 name-is-half">
-                        <div class="field">
-                            <label class="label">Name</label>
-                            <div class="control is-expanded">
-                                <input class="input is-large" name="name" type="text" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-2 email-is-half">
-                        <div class="field">
-                            <label class="label">Email</label>
-                            <div class="control is-expanded">
-                                <input class="input is-large" name="email" type="email" required>
-                            </div>
-                        </div>
-                    </div>
+        </nav>
+        <section class="animation-section">
+            <div class="box">
+
+                <div class="title">
+                    <span class="block"></span>
+                    <h1>Full-stack Developer, UI/UX Passion & Tech Enthusiast<span></span></h1>
                 </div>
-                <div class="col-md-8 offset-md-3">
-                    <div class="column">
-                        <div class="field">
-                            <label class="label">Message</label>
-                            <div class="control is-expanded">
-                                <textarea class="textarea is-large" name="message" rows="5" required></textarea>
-                            </div>
-                        </div>
-                    </div>
+                <br>
+                <div class="role">
+                    <div class="block"></div>
+                    <p>I enjoy coding to expand my knowledge and show my asthetics.</p>
                 </div>
+
+            </div>
+        </section>
+        <section class="page-section about" id="about-section">
+            <div class="container">
                 <div class="columns is-centered">
-                    <div class="col offset-md-5">
-                        <div class="field">
-                            <div class="control submit-btn">
-                                <button class="btn btn-primary">Submit</button>
+                    <div class="column">
+                        <h1 class="title">Hello, I'm Skip. It's my real name!</h1>
+                        <h2 class="subtitle">If there's anything amazing about programming, it is the ability to create
+                            anything and show your creativity. Ever since I began learning Web Development I came to realize
+                            that this was something I enjoyed to do. With an abundance of technologies and libraries there's
+                            so much to expand your knowledge with.
+                        </h2>
+                        <h2>I'm confident in my ability to stay calm and stick with a challenge to completion.
+                            Wether it be debugging syntax errors or just logging "Hello World" to the terminal,
+                            there's always satisfaction seeing working code.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section skills">
+            <div class="container">
+                <h1 class="skills-title">
+                    Skill Set
+                </h1>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="card">
+                            <div class="content">
+                                <div class="columns is-centered">
+                                    <div class="column">
+                                        <h1 class="lang-title">Languages</h1>
+                                        <p id="lang-items">HTML, CSS, JavaScript, PHP, SQL, API, XML</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <div class="content">
+                                <div class="columns is-centered">
+                                    <div class="column">
+                                        <h1 class="framework-title">Libraries & Frameworks</h1>
+                                        <p id="library-items">React.js, Express, Ajax, Axios, jQuery, Bootstrap, Bulma,
+                                            Materialize,
+                                            Passport, Node.js, ESLint, Mocha, Laravel</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="card">
+                            <div class="content">
+                                <div class="columns is-centered">
+                                    <div class="column">
+                                        <h1 class="tools-title">Tools</h1>
+                                        <p id="tool-items">Git, GitHub, Heroku, GitLab, DevTools, Postman, SASS</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </form>
-        </div>
-    </section>
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="social-icons">
-                <p class="field">
-                    <a class="button" href="https://twitter.com/skip_khamvongsa" target="_blank" id="twitter">
-                        <span class="icon is-small">
-                            <i class="fa fa-twitter"></i>
-                        </span>
-                    </a>
-                    <a class="button" href="https://www.linkedin.com/in/skip-khamvongsa/" target="_blank" id="linkedin">
-                        <span class="icon is-small">
-                            <i class="fa fa-linkedin"></i>
-                        </span>
-                    </a>
-                    <a class="button" href="https://github.com/skip1113" target="_blank" id="github">
-                        <span class="icon is-small">
-                            <i class="fa fa-github"></i>
-                        </span>
-                    </a>
-                    <a class="button" href="mailto:skipk95@gmail.com" target="_blank" id="email-link">
-                        <span class="icon is-small">
-                            <i class="fa fa-envelope"></i>
-                        </span>
-                    </a>
-                </p>
             </div>
-            <div class="copyright">
-                <p>Copyright &copy; Skip Khamvongsa 2020</p>
+        </section>
+        <section class="section portfolio" id="portfolio-section">
+            <div class="container" id="gallery">
+                <div class="row">
+                    <div class="col align-self-center">
+                        <h1 class="title">My Work</h1>
+                        <h2 class="subtitle">Feel free to look at a few of my projects & work</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col align-self-center">
+                        <div class="project-buttons">
+                            <a class="pro-btn">All</a>
+                            <a class="pro-btn">Projects</a>
+                            <a class="pro-btn">Apps</a>
+                            <a class="pro-btn">More</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="portfolio-grid" id="gallery">
+                    <div class="row" id="project-list">
+                        <div class="col-sm" data-my-order="1">
+                            <figure class="image is-3by2">
+                                <img class="portfolio-img" src="img/trails-img.jpg" width="350" height="220">
+                                <figcaption>
+                                    <p class="project-title">Plan a hike that awards
+                                        you after your hard work.
+                                    </p>
+                                    <button type="button" class="button" id="trails">Learn More</button>
+                                </figcaption>
+                                <div class="overlay"></div>
+                            </figure>
+                        </div>
+                        <div class="col-sm" data-my-order="1">
+                            <figure class="image is-3by2">
+                                <img class="portfolio-img" src="img/owl-background.jpg" width="350" height="220">
+                                <figcaption>
+                                    <p class="project-title">Blog and express your self through "Hoots" and "Holla" at
+                                        some
+                                        friends.</p>
+                                    <a class="button" id="hootholla">Learn More</a>
+                                </figcaption>
+                                <div class="overlay"></div>
+                            </figure>
+                        </div>
+                        <div class="col-sm" data-my-order="1">
+                            <figure class="image is-3by2">
+                                <img class="portfolio-img" src="img/date-night.jpg" width="350" height="220">
+                                <figcaption>
+                                    <p class="project-title">Never forget date night again. Simply find events
+                                        resturants and save them for you special nights.
+                                    </p>
+                                    <a class="button" id="nitinerary">Learn More</a>
+                                </figcaption>
+                                <div class="overlay"></div>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row" id="second-list">
+                        <div class="col-sm" data-my-order="1">
+                            <figure class="image is-3by2">
+                                <img class="portfolio-img" src="img/web-scraping.jpg" width="350" height="220">
+                                <figcaption>
+                                    <p class="app-title">
+                                        Enjoy some articles scraped from Time Magazine. Read saved articles and scrape
+                                        new
+                                        ones
+                                        each day.
+                                    </p>
+                                    <a href="https://github.com/skip1113/Scraping-Mongo" target="_blank">Learn More</a>
+                                </figcaption>
+                                <div class="overlay"></div>
+                            </figure>
+                        </div>
+                        <div class="col-sm" data-my-order="1">
+                            <figure class="image is-3by2">
+                                <img class="portfolio-img" src="img/bam-cli.png" width="350" height="220">
+                                <figcaption>
+                                    <p class="app-title">
+                                        "Bamazon" Store front CLI Application. Manage, buy, and sell inventory with
+                                        commands
+                                        in
+                                        your terminal.
+                                    </p>
+                                    <a href="https://github.com/skip1113/bamazon" target="_blank">Learn More</a>
+                                </figcaption>
+                                <div class="overlay"></div>
+                            </figure>
+                        </div>
+                        <div class="col-sm" data-my-order="1">
+                            <figure class="image is-3by2">
+                                <img class="portfolio-img" src="img/liri-cli.png" width="350" height="220">
+                                <figcaption>
+                                    <p class="app-title">
+                                        Liri bot CLI. Command your terminal to search for movies, concerts, and songs
+                                        all in
+                                        one
+                                        bot.
+                                    </p>
+                                    <a href="https://github.com/skip1113/Liri-node-app" target="_blank">Learn More</a>
+                                </figcaption>
+                                <div class="overlay"></div>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="row" id="apps-list">
+                        <div class="col-sm" data-my-order="1">
+                            <figure class="image is-3by2">
+                                <img class="portfolio-img" src="img/book-list.png" width="350" height="220">
+                                <figcaption>
+                                    <p class="app-title">
+                                        Find millions of authors and books to read. Save and create a list novels
+                                        to read or to archive.
+                                    </p>
+                                    <a href="https://github.com/skip1113/google-books" target="_blank">Learn More</a>
+                                </figcaption>
+                                <div class="overlay"></div>
+                            </figure>
+                        </div>
+                        <div class="col-sm" data-my-order="1">
+                            <figure class="image is-3by2">
+                                <img class="portfolio-img" src="img/departure-board.jpg" width="350" height="220">
+                                <figcaption>
+                                    <p class="app-title">
+                                        Train Scheduler, retrieves and manipulates information that calculates
+                                        departures and arrivals with current time-zones.
+                                    </p>
+                                    <a href="https://github.com/skip1113/FireTrain" target="_blank">Learn More</a>
+                                </figcaption>
+                                <div class="overlay"></div>
+                            </figure>
+                        </div>
+                        <div class="col-sm" data-my-order="1">
+                            <figure class="image is-3by2">
+                                <img class="portfolio-img" src="img/eighties.jpg" width="350" height="220">
+                                <figcaption>
+                                    <p class="app-title">
+                                        Take it back to the 80s bands guessing game with each key stroke, hangman style!
+                                    </p>
+                                    <a href="https://github.com/skip1113/Word-Guess-Game" target="_blank">Learn More</a>
+                                </figcaption>
+                                <div class="overlay"></div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+
+        </section>
+        <section class="section contact-page" id="contact-intro">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-three-quarters">
+                        <h1 class="title">Get in Touch!</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-form">
+            <div class="container">
+                <form id="form-field">
+                    <div class="row justify-content-start">
+                        <div class="col-2 name-is-half">
+                            <div class="field">
+                                <label class="label">Name</label>
+                                <div class="control is-expanded">
+                                    <input class="input is-large" name="name" type="text" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2 email-is-half">
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control is-expanded">
+                                    <input class="input is-large" name="email" type="email" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 offset-md-3">
+                        <div class="column">
+                            <div class="field">
+                                <label class="label">Message</label>
+                                <div class="control is-expanded">
+                                    <textarea class="textarea is-large" name="message" rows="5" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columns is-centered">
+                        <div class="col offset-md-5">
+                            <div class="field">
+                                <div class="control submit-btn">
+                                    <button class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="social-icons">
+                    <p class="field">
+                        <a class="button" href="https://twitter.com/skip_khamvongsa" target="_blank" id="twitter">
+                            <span class="icon is-small">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                        <a class="button" href="https://www.linkedin.com/in/skip-khamvongsa/" target="_blank"
+                            id="linkedin">
+                            <span class="icon is-small">
+                                <i class="fa fa-linkedin"></i>
+                            </span>
+                        </a>
+                        <a class="button" href="https://github.com/skip1113" target="_blank" id="github">
+                            <span class="icon is-small">
+                                <i class="fa fa-github"></i>
+                            </span>
+                        </a>
+                        <a class="button" href="mailto:skipk95@gmail.com" target="_blank" id="email-link">
+                            <span class="icon is-small">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                        </a>
+                    </p>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; Skip Khamvongsa 2020</p>
+                </div>
+            </div>
+        </footer>
+    </div>
     <!-- Bootstrap and Javascript CDN -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
