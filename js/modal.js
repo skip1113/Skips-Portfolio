@@ -15,11 +15,12 @@ $(document).ready(function() {
             // demo: 'https://pure-peak-54891.herokuapp.com/login'
         }
     };
-
+    // var modal = document.getElementsByClassName('modal-wrap');
     $('#gallery .button').on('click', function () {
         console.log(this.id);
         fillModal(this.id);
         $('.modal-wrap').addClass('visible');
+        // modal.style.display = 'block';
     });
     $('.close').on('click', function () {
         $('.modal-wrap, #modal .button').removeClass('visible');
