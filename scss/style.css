@@ -73,10 +73,12 @@ div.project-buttons {
   margin: 0 auto;
   display: table;
   padding-bottom: 1em;
+  font-size: 25px;
 }
 
-a.btn.btn-info {
-  margin-right: 5px;
+a.pro-btn {
+  margin: 8px;
+  text-decoration: none;
 }
 
 .portfolio .container h1 {
