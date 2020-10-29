@@ -93,9 +93,10 @@ $(document).ready(function () {
         ) {
             SlideWidth = $(window).innerWidth();
         }
-        $('.carousel-wrap, .slide').css('width', slideWidth);
+        // $('.carousel-wrap, .slide').css('width', slideWidth);
+        $('.slide').css('width', slideWidth);
         $('.modal').css('max-width', slideWidth);
-        $('#carousel').css('left', slideWidth * -1);
+        // $('#carousel').css('left', slideWidth * 1);
     };
 
     function dragPos() {
@@ -147,7 +148,8 @@ $(document).ready(function () {
                 $(this).css({
                     background:
                         "url('./img/slides/" + id + '-' + index + ".png') center center/cover",
-                    backgroundSize: 'cover'
+                    backgroundSize: 'cover',
+                    height: '100%'
                 });
                 // document.getElementByClassName('slide').src = "../img/slides/trails-1.png";
             });

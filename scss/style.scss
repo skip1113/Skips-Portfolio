@@ -83,7 +83,7 @@ div.modal-wrap.flex.visible {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0,0.5); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal-wrap .modal {
@@ -126,6 +126,12 @@ div.modal-wrap.flex.visible {
   flex-direction: column;
   float: left;
   justify-content: center;
+}
+.fa-chevron-left {
+  float: left;
+}
+.fa-chevron-right {
+  float: right;
 }
 .modal-wrap .infobox {
   border-top: 3px solid #1b242f;
@@ -326,6 +332,9 @@ footer .social-icons a.button .icon.is-small {
 #twitter:hover {
   color: #3b5998;
   background-color: white;
+}
+#preload {
+  display: none;
 }
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 
