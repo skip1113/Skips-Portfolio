@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     var modalText = {
         trails: {
             title: 'Trails on Tap',
@@ -21,9 +21,10 @@ $(document).ready(function() {
         console.log(this.id);
         fillModal(this.id);
         $('.modal-wrap').addClass('visible')
-        .css({
-            zIndex: 1,
-            position: 'fixed' });
+            .css({
+                zIndex: 1,
+                position: 'fixed'
+            });
         modal.style.display = 'block';
     });
     $('.close').on('click', function () {
@@ -36,7 +37,7 @@ $(document).ready(function() {
     //         modal.style.display = 'none';
     //     }
     // });
-    $(window).click(function(e) {
+    $(window).click(function (e) {
         if (e.target == modal) {
             $('.modal-wrap, #modal .button').removeClass('visibile');
 
@@ -143,12 +144,15 @@ $(document).ready(function() {
         // document.getElementByClassName('slide').style.backgroundImage = "url('trails-1.png')";
         $.each(
             $('#modal .slide'), function (index, value) {
-            $(this).css({
-                backgroundImage:
-                    "url('img/slides" + id + '-' + index + ".png') center center/cover",
-                backgroundSize: 'cover'
+                $(this).css({
+                    background:
+                        "url('./img/slides/" + id + '-' + index + ".png') center center/cover",
+                    backgroundSize: 'cover'
+                });
+                // document.getElementByClassName('slide').src = "../img/slides/trails-1.png";
             });
-        });
+            // document.getElementByClassName('slide').src = "../img/slides/trails-1.png";
+
     };
 });
 
