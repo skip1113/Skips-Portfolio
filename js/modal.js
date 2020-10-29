@@ -16,7 +16,7 @@ $(document).ready(function() {
         }
     };
     var modal = document.getElementById('modal');
-    // var close = document.getElementByClassName('close')
+    // var slide = document.getElementByClassName('slide');
     $('#gallery .button').on('click', function () {
         console.log(this.id);
         fillModal(this.id);
@@ -140,9 +140,11 @@ $(document).ready(function() {
         $.each($('#modal li'), function (index, value) {
             $(this).text(modalText[id].bullets[index]);
         });
-        $.each($('#modal li'), function (index, value) {
+        // document.getElementByClassName('slide').style.backgroundImage = "url('trails-1.png')";
+        $.each(
+            $('#modal .slide'), function (index, value) {
             $(this).css({
-                background:
+                backgroundImage:
                     "url('img/slides" + id + '-' + index + ".png') center center/cover",
                 backgroundSize: 'cover'
             });
