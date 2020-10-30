@@ -31,29 +31,16 @@ $(document).ready(function () {
         $('.modal-wrap, #modal .button').removeClass('visible');
         modal.style.display = 'none';
     });
-    // window.addEventListener('click', function(event) {
-    //     if (event.target == modal) {
-    //         $('.modal-wrap, #modal .button').removeClass('visibile');
-    //         modal.style.display = 'none';
-    //     }
-    // });
     $(window).click(function (e) {
         if (e.target == modal) {
-            $('.modal-wrap, #modal .button').removeClass('visibile');
+            $('.modal-wrap, #modal .button').removeClass('visible');
 
             modal.style.display = 'none';
         }
     })
-    // window.onClick = function(event) {
-    //     if (event.target == modal) {
-    //         $('.modal-wrap, #modal .button').removeClass('visibile');
-
-    //         modal.style.display = 'none';
-    //     }
-    // };
     $('.mask').on('click', function () {
-        $('.modal-wrap, #modal .button').removeClass('visibile');
-        // modal.style.display = 'none';
+        $('.modal-wrap, #modal .button').removeClass('visible');
+        modal.style.display = 'none';
     });
 
     var carousel = $('#carousel'),

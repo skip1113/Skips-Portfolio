@@ -161,6 +161,13 @@ div.modal-wrap.flex.visible {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .modal-wrap .modal {
+    height: initial;
+    top: -6vh;
+  }
+}
+
 .carousel-wrap {
   margin: 0 auto;
   position: relative;
@@ -170,6 +177,7 @@ div.modal-wrap.flex.visible {
   background: #222;
   overflow: hidden;
   position: relative;
+  max-height: 450px;
 }
 
 #carousel {
