@@ -133,6 +133,12 @@ div.modal-wrap.flex.visible {
   width: 80%;
 }
 
+@media screen and (min-width: 600px) {
+  .slide, .carousel-wrap {
+    height: 450px;
+  }
+}
+
 .carousel-wrap {
   margin: 0 auto;
   position: relative;
@@ -148,7 +154,6 @@ div.modal-wrap.flex.visible {
   position: relative;
   top: 0;
   width: 1000px;
-  height: 500px;
 }
 
 .slide {
@@ -167,11 +172,19 @@ div.modal-wrap.flex.visible {
 }
 
 .fa-chevron-left {
-  float: left;
+  left: 0;
+}
+
+.fa-chevron0left, .fa-chevron-right {
+  bottom: 0;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  position: absolute;
 }
 
 .fa-chevron-right {
-  float: right;
+  right: 0;
 }
 
 .modal-wrap .infobox {
