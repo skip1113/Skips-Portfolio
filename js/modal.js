@@ -73,8 +73,12 @@ $(document).ready(function () {
 
     carousel.on('mousedown', function () {
         if (carousel.hasClass('transition')) return;
-        dragStart = Event.pageX;
+        dragStart = event.pageX;
         $(this).on('mousemove', function () {
+            dragnEnd = event.pageX;
+            $(this).css('transform', 'translateX(' + dragPos() + 'px)');
+        });
+        $(document).on('mouseup', function() {
             if (dragPos() > threshold) {
                 return shiftSlide(1);
             }
@@ -96,7 +100,7 @@ $(document).ready(function () {
         // $('.carousel-wrap, .slide').css('width', slideWidth);
         $('.slide').css('width', slideWidth);
         $('.modal').css('max-width', slideWidth);
-        // $('#carousel').css('left', slideWidth * 1);
+        $('#carousel').css('left', slideWidth * 1);
     };
 
     function dragPos() {

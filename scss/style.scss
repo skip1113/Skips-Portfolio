@@ -71,6 +71,12 @@ div.modal-wrap.flex.visible {
   width: 100vw;
   // position: fixed;
 }
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .modal-wrap .mask {
   // // -webkit-transition: opacity 0.3s;
   // transition: opacity 0.3s;
@@ -135,7 +141,7 @@ div.modal-wrap.flex.visible {
   flex-direction: column;
   float: left;
   justify-content: center;
-  height: 250px
+  // height: 250px
 }
 .fa-chevron-left {
   left: 0;
