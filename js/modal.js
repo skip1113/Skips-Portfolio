@@ -42,7 +42,8 @@ $(document).ready(function () {
         $('.modal-wrap, #modal .button').removeClass('visible');
         modal.style.display = 'none';
     });
-
+    var mouseEvent = document.createEvent('MouseEvent');
+    mouseEvent.initMouseEvent('click', true, true, window, 1, 100, 100, 100,100);
     var carousel = $('#carousel'),
         slideWidth = 700,
         threshold = slideWidth / 3,
@@ -91,7 +92,7 @@ $(document).ready(function () {
     };
 
     function dragPos() {
-        return dragEnd - dragStart
+        return dragEnd - dragStart;
     };
 
     function shiftSlide(direction) {
