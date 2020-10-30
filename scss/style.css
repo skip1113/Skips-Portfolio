@@ -133,6 +133,12 @@ div.modal-wrap.flex.visible {
   width: 80%;
 }
 
+.modal-wrap.visible .modal {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 @media screen and (min-width: 600px) {
   .slide, .carousel-wrap {
     height: 450px;
@@ -169,13 +175,14 @@ div.modal-wrap.flex.visible {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 250px;
 }
 
 .fa-chevron-left {
   left: 0;
 }
 
-.fa-chevron0left, .fa-chevron-right {
+.fa-chevron-left, .fa-chevron-right {
   bottom: 0;
   color: #fff;
   font-weight: bold;
