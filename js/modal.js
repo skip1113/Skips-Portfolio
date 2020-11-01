@@ -19,6 +19,12 @@ $(document).ready(function () {
             tag: 'Date night planner',
             detail: 'Plan a date anyday with that special someone. This is a MERN Stack application with APIs to search for events, and save them so you wont ever forget what you are doing.',
             link: 'https://github.com/imjvdn/DUFinalProject'
+        },
+        mongoscrape: {
+            title: 'Mongo Web Scraper',
+            tag: 'Time Magazine Articles scraper',
+            detail: 'This application uses MongoDB for users to save articles to read later. These articles were scraped from Time Magazine using Mongoose and Cheerio',
+            link: 'https://github.com/skip1113/Scraping-Mongo'
         }
     };
     var modal = document.getElementById('modal');
