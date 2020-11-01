@@ -13,6 +13,12 @@ $(document).ready(function () {
             detail: 'Hoot to post a blog, and Holla at a friend. This application uses authentication for users to create an account, post their blogs, and see other users blogs.',
             link: 'https://github.com/Ragnorok303/Project2DBC'
             // demo: 'https://pure-peak-54891.herokuapp.com/login'
+        },
+        nitinerary: {
+            title: 'Nitinerary',
+            tag: 'Date night planner',
+            detail: 'Plan a date anyday with that special someone. This is a MERN Stack application with APIs to search for events, and save them so you wont ever forget what you are doing.',
+            link: 'https://github.com/imjvdn/DUFinalProject'
         }
     };
     var modal = document.getElementById('modal');
