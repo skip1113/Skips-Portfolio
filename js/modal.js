@@ -88,7 +88,7 @@ $(document).ready(function () {
         // $('.carousel-wrap, .slide').css('width', slideWidth);
         $('.slide').css('width', slideWidth);
         $('.modal').css('max-width', slideWidth);
-        $('#carousel').css('left', slideWidth * 1);
+        // $('#carousel').css('left', slideWidth * 1);
     };
 
     function dragPos() {
