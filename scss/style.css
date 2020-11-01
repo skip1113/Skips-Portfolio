@@ -246,6 +246,11 @@ section {
   border-radius: 12px;
 }
 
+.portfolio .portfolio-grid figure figcaption a {
+  color: white;
+  font-weight: bold;
+}
+
 .portfolio .portfolio-grid figure img.portfolio-img {
   -webkit-transfor: scale(1);
   -webkit-transition: .25s ease-in-out;

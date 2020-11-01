@@ -22,7 +22,7 @@ $(document).ready(function () {
         fillModal(this.id);
         $('.modal-wrap').addClass('visible')
             .css({
-                zIndex: 1,
+                zIndex: 2,
                 position: 'fixed'
             });
         modal.style.display = 'block';
