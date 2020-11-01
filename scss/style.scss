@@ -233,8 +233,16 @@ section {
 .portfolio .portfolio-grid figure:hover .overlay, .portfolio .portfolio-grid figure:hover figcaption {
   opacity: 1;
 }
-button#trails.button {
+// button#trails.button {
+//   z-index: 200;
+// }
+.portfolio .portfolio-grid figure button {
   z-index: 200;
+  background-color: #232323;
+  // border-radius: 2px black solid;
+  color: white;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 #intro-title {
     color: white;

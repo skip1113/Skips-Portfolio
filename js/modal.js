@@ -140,7 +140,7 @@ $(document).ready(function () {
                 $(this).css({
                     background:
                         "url('./img/slides/" + id + '-' + index + ".png') center center/cover",
-                    backgroundSize: 'cover',
+                    backgroundSize: 'cover'
                     // height: '100%'
                 });
                 // document.getElementByClassName('slide').src = "../img/slides/trails-1.png";

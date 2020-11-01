@@ -305,8 +305,12 @@ section {
   opacity: 1;
 }
 
-button#trails.button {
+.portfolio .portfolio-grid figure button {
   z-index: 200;
+  background-color: #232323;
+  color: white;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 #intro-title {
