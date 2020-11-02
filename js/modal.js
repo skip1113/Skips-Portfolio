@@ -43,6 +43,12 @@ $(document).ready(function () {
             tag: 'Reading List DataBase',
             detail: 'Google books reading list. This application uses React, Google Books API and Mongoose. Users are able to search for books, save and create for reading later.',
             link: 'https://github.com/skip1113/google-books'
+        },
+        firetrain: {
+            title: 'Fire Train Schedule',
+            tag: 'Train departure, and arrival schedule',
+            detail: 'This train application uses Momment.js for real time, and Firebase for storage. Users are able to create and see the calculated times when the train will next arrive.',
+            link: 'https://github.com/skip1113/FireTrain'
         }
     };
     var modal = document.getElementById('modal');
