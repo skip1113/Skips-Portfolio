@@ -25,6 +25,12 @@ $(document).ready(function () {
             tag: 'Time Magazine Articles scraper',
             detail: 'This application uses MongoDB for users to save articles to read later. These articles were scraped from Time Magazine using Mongoose and Cheerio',
             link: 'https://github.com/skip1113/Scraping-Mongo'
+        },
+        bamazon: {
+            title: 'Bamazon CLI',
+            tag: 'Command line items shop',
+            detail: 'Bamazon operates using the terminal. Items can be bought, sold, added and managed with a specific command line. This application uses Node.js, Inquirer, and MySQL.',
+            link: 'https://github.com/skip1113/bamazon'
         }
     };
     var modal = document.getElementById('modal');
