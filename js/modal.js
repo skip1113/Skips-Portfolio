@@ -31,6 +31,12 @@ $(document).ready(function () {
             tag: 'Command line items shop',
             detail: 'Bamazon operates using the terminal. Items can be bought, sold, added and managed with a specific command line. This application uses Node.js, Inquirer, and MySQL.',
             link: 'https://github.com/skip1113/bamazon'
+        },
+        liribot: {
+            title: 'Node LIRI Bot',
+            tag: 'Language Interpretation and Recgonition Interface with APIs',
+            detail: 'This LIRI bot application allows users to find songs, concerts and movies through their terminal using Axios and APIs',
+            link: 'https://github.com/skip1113/Liri-node-app'
         }
     };
     var modal = document.getElementById('modal');
