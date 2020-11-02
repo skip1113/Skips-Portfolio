@@ -37,6 +37,12 @@ $(document).ready(function () {
             tag: 'Language Interpretation and Recgonition Interface with APIs',
             detail: 'This LIRI bot application allows users to find songs, concerts and movies through their terminal using Axios and APIs',
             link: 'https://github.com/skip1113/Liri-node-app'
+        },
+        googlebooks: {
+            title: 'Google Books',
+            tag: 'Reading List DataBase',
+            detail: 'Google books reading list. This application uses React, Google Books API and Mongoose. Users are able to search for books, save and create for reading later.',
+            link: 'https://github.com/skip1113/google-books'
         }
     };
     var modal = document.getElementById('modal');
