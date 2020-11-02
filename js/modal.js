@@ -49,6 +49,12 @@ $(document).ready(function () {
             tag: 'Train departure, and arrival schedule',
             detail: 'This train application uses Momment.js for real time, and Firebase for storage. Users are able to create and see the calculated times when the train will next arrive.',
             link: 'https://github.com/skip1113/FireTrain'
+        },
+        wordguessgame: {
+            title: 'Word Guess Game',
+            tag: '80s Band Guess Game',
+            detail: 'This game uses Jquery to enable the users to guess the bands with a type of a letter on their keyboard. Wins and Losses are also kept score on the screen.',
+            link: 'https://github.com/skip1113/Word-Guess-Game'
         }
     };
     var modal = document.getElementById('modal');
