@@ -55,6 +55,12 @@ $(document).ready(function () {
             tag: '80s Band Guess Game',
             detail: 'This game uses Jquery to enable the users to guess the bands with a type of a letter on their keyboard. Wins and Losses are also kept score on the screen.',
             link: 'https://github.com/skip1113/Word-Guess-Game'
+        },
+        burger: {
+            title: 'Burger Creator',
+            tag: 'Create burgers and watch the DOM update after devourings.',
+            detail: 'This burger creation application is built with Handlebars, Express, and MySQL. Users are able to create their own burger and devour it. Burgers that are created are saved in MySQL Database.',
+            link: 'https://github.com/skip1113/burger'
         }
     };
     var modal = document.getElementById('modal');
