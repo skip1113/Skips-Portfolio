@@ -61,6 +61,12 @@ $(document).ready(function () {
             tag: 'Create burgers and watch the DOM update after devourings.',
             detail: 'This burger creation application is built with Handlebars, Express, and MySQL. Users are able to create their own burger and devour it. Burgers that are created are saved in MySQL Database.',
             link: 'https://github.com/skip1113/burger'
+        },
+        crystals: {
+            title: 'Crystal Game',
+            tag: 'Random Number Generator Crystals',
+            detail: 'This game is created with JQuery, the game updates after a win or lose, and each click of a crystal. Add up the crystals to the computer score to win.',
+            link: 'https://github.com/skip1113/unit-4-game'
         }
     };
     var modal = document.getElementById('modal');
