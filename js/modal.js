@@ -67,6 +67,12 @@ $(document).ready(function () {
             tag: 'Random Number Generator Crystals',
             detail: 'This game is created with JQuery, the game updates after a win or lose, and each click of a crystal. Add up the crystals to the computer score to win.',
             link: 'https://github.com/skip1113/unit-4-game'
+        },
+        friendfinder: {
+            title: 'Friend Finder',
+            tag: 'Social Dating App',
+            detail: 'This application was built with Express, and Node. Users complete a survey and the matching algorithm pairs the user with someone that has the closests answers to your survey.',
+            link: 'https://github.com/skip1113/friend-finder'
         }
     };
     var modal = document.getElementById('modal');
