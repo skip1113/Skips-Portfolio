@@ -4,8 +4,8 @@ $(document).ready(function () {
             title: 'Trails on Tap',
             tag: 'Hiking Trails & Breweries',
             detail: 'Trails on Tap is a application for users to simply plan a full adventure with a search of city or zip, to find hiking trails, and breweries. Be outdoors with friends, and receive a reward after your hard work.',
-            link: 'https://github.com/skip1113/class-pro-1'
-            // demo: 'https://skip1113.github.io/class-pro-1/views/index.html'
+            link: 'https://github.com/skip1113/class-pro-1',
+            demo: 'https://skip1113.github.io/class-pro-1/views/index.html'
         },
         hootholla: {
             title: 'Hoot & Holla',
@@ -180,16 +180,16 @@ $(document).ready(function () {
         $('#modal .title').text(modalText[id].title);
         $('#modal .detail').text(modalText[id].detail);
         $('#modal .tag').text(modalText[id].tag);
-        if (modalText[id].link)
+        // if (modalText[id].link)
             $('#modal .button')
                 .addClass('visibile')
                 .parent()
                 .attr('href', modalText[id].link);
         // if (modalText[id].demo)
-        //     ('#modal .button')
-        //         .addClass('visible')
-        //         .parent()
-        //         .attr('href', modalText[id].demo);
+            $('#modal .buttonDemo')
+                .addClass('visible')
+                .parent()
+                .attr('href', modalText[id].demo);
 
         $.each($('#modal li'), function (index, value) {
             $(this).text(modalText[id].bullets[index]);
