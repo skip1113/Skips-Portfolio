@@ -11,68 +11,78 @@ $(document).ready(function () {
             title: 'Hoot & Holla',
             tag: 'Blog Social Media',
             detail: 'Hoot to post a blog, and Holla at a friend. This application uses authentication for users to create an account, post their blogs, and see other users blogs.',
-            link: 'https://github.com/Ragnorok303/Project2DBC'
-            // demo: 'https://pure-peak-54891.herokuapp.com/login'
+            link: 'https://github.com/Ragnorok303/Project2DBC',
+            demo: 'https://pure-peak-54891.herokuapp.com/login'
         },
         nitinerary: {
             title: 'Nitinerary',
             tag: 'Date night planner',
             detail: 'Plan a date anyday with that special someone. This is a MERN Stack application with APIs to search for events, and save them so you wont ever forget what you are doing.',
-            link: 'https://github.com/imjvdn/DUFinalProject'
+            link: 'https://github.com/imjvdn/DUFinalProject',
+            demo: 'https://nitetinerary.herokuapp.com/'
         },
         mongoscrape: {
             title: 'Mongo Web Scraper',
             tag: 'Time Magazine Articles scraper',
             detail: 'This application uses MongoDB for users to save articles to read later. These articles were scraped from Time Magazine using Mongoose and Cheerio',
-            link: 'https://github.com/skip1113/Scraping-Mongo'
+            link: 'https://github.com/skip1113/Scraping-Mongo',
+            demo: 'https://scraping-mongo.herokuapp.com/'
         },
         bamazon: {
             title: 'Bamazon CLI',
             tag: 'Command line items shop',
             detail: 'Bamazon operates using the terminal. Items can be bought, sold, added and managed with a specific command line. This application uses Node.js, Inquirer, and MySQL.',
-            link: 'https://github.com/skip1113/bamazon'
+            link: 'https://github.com/skip1113/bamazon',
+            demo: 'https://github.com/skip1113/bamazon'
         },
         liribot: {
             title: 'Node LIRI Bot',
             tag: 'Language Interpretation and Recgonition Interface with APIs',
             detail: 'This LIRI bot application allows users to find songs, concerts and movies through their terminal using Axios and APIs',
-            link: 'https://github.com/skip1113/Liri-node-app'
+            link: 'https://github.com/skip1113/Liri-node-app',
+            demo: 'https://github.com/skip1113/Liri-node-app'
         },
         googlebooks: {
             title: 'Google Books',
             tag: 'Reading List DataBase',
             detail: 'Google books reading list. This application uses React, Google Books API and Mongoose. Users are able to search for books, save and create for reading later.',
-            link: 'https://github.com/skip1113/google-books'
+            link: 'https://github.com/skip1113/google-books',
+            demo: 'https://gogglebooks.herokuapp.com/'
         },
         firetrain: {
             title: 'Fire Train Schedule',
             tag: 'Train departure, and arrival schedule',
             detail: 'This train application uses Momment.js for real time, and Firebase for storage. Users are able to create and see the calculated times when the train will next arrive.',
-            link: 'https://github.com/skip1113/FireTrain'
+            link: 'https://github.com/skip1113/FireTrain',
+            demo: 'https://skip1113.github.io/FireTrain/index.html'
         },
         wordguessgame: {
             title: 'Word Guess Game',
             tag: '80s Band Guess Game',
             detail: 'This game uses Jquery to enable the users to guess the bands with a type of a letter on their keyboard. Wins and Losses are also kept score on the screen.',
-            link: 'https://github.com/skip1113/Word-Guess-Game'
+            link: 'https://github.com/skip1113/Word-Guess-Game',
+            demo: 'https://skip1113.github.io/Word-Guess-Game/'
         },
         burger: {
             title: 'Burger Creator',
             tag: 'Create burgers and watch the DOM update after devourings.',
             detail: 'This burger creation application is built with Handlebars, Express, and MySQL. Users are able to create their own burger and devour it. Burgers that are created are saved in MySQL Database.',
-            link: 'https://github.com/skip1113/burger'
+            link: 'https://github.com/skip1113/burger',
+            demo: 'https://hidden-chamber-83537.herokuapp.com/'
         },
         crystals: {
             title: 'Crystal Game',
             tag: 'Random Number Generator Crystals',
             detail: 'This game is created with JQuery, the game updates after a win or lose, and each click of a crystal. Add up the crystals to the computer score to win.',
-            link: 'https://github.com/skip1113/unit-4-game'
+            link: 'https://github.com/skip1113/unit-4-game',
+            demo: 'https://skip1113.github.io/unit-4-game/'
         },
         friendfinder: {
             title: 'Friend Finder',
             tag: 'Social Dating App',
             detail: 'This application was built with Express, and Node. Users complete a survey and the matching algorithm pairs the user with someone that has the closests answers to your survey.',
-            link: 'https://github.com/skip1113/friend-finder'
+            link: 'https://github.com/skip1113/friend-finder',
+            demo: 'https://hidden-chamber-83537.herokuapp.com/survey'
         }
     };
     var modal = document.getElementById('modal');
@@ -180,12 +190,10 @@ $(document).ready(function () {
         $('#modal .title').text(modalText[id].title);
         $('#modal .detail').text(modalText[id].detail);
         $('#modal .tag').text(modalText[id].tag);
-        // if (modalText[id].link)
             $('#modal .button')
                 .addClass('visibile')
                 .parent()
                 .attr('href', modalText[id].link);
-        // if (modalText[id].demo)
             $('#modal .buttonDemo')
                 .addClass('visible')
                 .parent()
