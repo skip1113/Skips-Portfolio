@@ -202,19 +202,14 @@ $(document).ready(function () {
         $.each($('#modal li'), function (index, value) {
             $(this).text(modalText[id].bullets[index]);
         });
-        // document.getElementByClassName('slide').style.backgroundImage = "url('trails-1.png')";
         $.each(
             $('#modal .slide'), function (index, value) {
                 $(this).css({
                     background:
                         "url('./img/slides/" + id + '-' + index + ".png') center center/cover",
                     backgroundSize: 'cover'
-                    // height: '100%'
                 });
-                // document.getElementByClassName('slide').src = "../img/slides/trails-1.png";
             });
-            // document.getElementByClassName('slide').src = "../img/slides/trails-1.png";
-
     };
 });
 
