@@ -43,6 +43,12 @@ html, body {
 div.col-sm {
   flex-grow: unset;
 }
+section.section.skills img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  // width: 50%
+}
 section.section.skills {
   // background-color: #f3f3f3;
   background-color: #fff;
