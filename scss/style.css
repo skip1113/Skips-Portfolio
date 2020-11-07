@@ -308,10 +308,25 @@ section {
 
 .portfolio .portfolio-grid figure button {
   z-index: 200;
-  background-color: #232323;
-  color: white;
   margin-left: 35px;
   margin-right: 35px;
+}
+
+.portfolio .portfolio-grid figure figcaption button.is-primary.is-outlined.is-rounded {
+  font-size: 18px;
+  padding: 0.8em;
+  font-weight: 400;
+  border-width: 2px;
+  color: white;
+}
+
+.button.is-rounded {
+  border-radius: 290486px;
+}
+
+.button.is-primary.is-outlined {
+  background-color: transparent;
+  border-color: #fff;
 }
 
 #intro-title {
