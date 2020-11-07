@@ -293,9 +293,12 @@ div.col-2.email-is-half {
 .contact-page .container h1 {
   text-align: center;
 }
-button.button.is-primary {
+button.btn {
   margin-left: 2%;
+  background-color: #3f3f3f;
+  color: white;
 }
+
 .columns.is-centered {
   -webkit-box-align: center;
   justify-content: center;
