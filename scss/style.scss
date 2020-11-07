@@ -52,7 +52,8 @@ section.section.skills img {
 section.section.skills {
   // background-color: #f3f3f3;
   background-color: #fff;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 1em;
 }
 .skills .container h1 {
   text-align: center;
@@ -63,6 +64,9 @@ section.section.skills {
 }
 .skills .container p {
   text-align: center;
+}
+.skills .card {
+  padding-top: 1em;
 }
 div.project-buttons {
   margin: 0 auto;
@@ -182,6 +186,8 @@ section {
 }
 .portfolio {
     background-color: #f3f3f3;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .portfolio .portfolio-grid figure {
   position: relative;
@@ -270,6 +276,8 @@ section {
   margin: 0 auto;
   position: relative;
   width: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 div.col-2.name-is-half {
   // float: left;
