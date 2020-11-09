@@ -362,6 +362,14 @@ section {
   padding-bottom: 1em;
 }
 
+.contact-subtitle {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 8em;
+  margin-right: 8em;
+  font-weight: 600;
+}
+
 div.col-2.name-is-half {
   margin: 0 auto;
   clear: both;
