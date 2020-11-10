@@ -213,6 +213,20 @@ div.modal-wrap.flex.visible {
           justify-content: center;
 }
 
+.modal-wrap .title {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.modal-wrap .tag {
+  font-size: 15px;
+  color: #c0c0c0;
+  display: block;
+  font-weight: 300;
+  padding-bottom: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .fa-chevron-left {
   left: 0;
 }
