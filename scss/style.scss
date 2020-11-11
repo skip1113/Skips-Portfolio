@@ -92,8 +92,6 @@ div.modal-wrap.flex.visible {
   justify-content: center;
 }
 .modal-wrap .mask {
-  // // -webkit-transition: opacity 0.3s;
-  // transition: opacity 0.3s;
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 100; /* Sit on top */
@@ -335,7 +333,6 @@ section {
   font-weight: 600;
 }
 div.col-2.name-is-half {
-  // float: left;
   margin: 0 auto;
   clear: both;
   margin-left: 25.5%;
