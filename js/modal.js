@@ -90,6 +90,13 @@ $(document).ready(function () {
             detail: 'This uses the giphy API, which is communicated with the Ajax functions to create results of the Gifs the users searches for. The Gifs are animated by clicking the still image.',
             link: 'https://github.com/skip1113/GIFtastic',
             demo: 'https://skip1113.github.io/GIFtastic'
+        },
+        simpsonstriv: {
+            title: 'Simpsons Trivia',
+            tag: 'Test what you know about the Simpsons',
+            detail: 'This is a timed trivia about the Simpsons made with Javascript, and JQuery. After the count down or submission button the questions will be validated if they are correct or incorrect.',
+            link: 'https://github.com/skip1113/TriviaGame',
+            demo: 'https://skip1113.github.io/TriviaGame/'   
         }
     };
     var modal = document.getElementById('modal');
