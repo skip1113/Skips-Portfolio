@@ -83,6 +83,13 @@ $(document).ready(function () {
             detail: 'This application was built with Express, and Node. Users complete a survey and the matching algorithm pairs the user with someone that has the closests answers to your survey.',
             link: 'https://github.com/skip1113/friend-finder',
             demo: 'https://hidden-chamber-83537.herokuapp.com/survey'
+        },
+        giphy: {
+            title: 'Giphy App',
+            tag: 'Animated Gif Application',
+            detail: 'This uses the giphy API, which is communicated with the Ajax functions to create results of the Gifs the users searches for. The Gifs are animated by clicking the still image.',
+            link: 'https://github.com/skip1113/GIFtastic',
+            demo: 'https://skip1113.github.io/GIFtastic'
         }
     };
     var modal = document.getElementById('modal');
