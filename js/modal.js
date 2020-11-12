@@ -97,6 +97,13 @@ $(document).ready(function () {
             detail: 'This is a timed trivia about the Simpsons made with Javascript, and JQuery. After the count down or submission button the questions will be validated if they are correct or incorrect.',
             link: 'https://github.com/skip1113/TriviaGame',
             demo: 'https://skip1113.github.io/TriviaGame/'   
+        },
+        reactclick: {
+            title: 'React Clicky Game',
+            tag: 'React DOM Manipulation Game',
+            detail: 'This game is built with Reactjs using Components, JSX, and Props. Users click each Simpsons character without clicking a duplicate character to gain points and watch the DOM update from the power of React.',
+            link: 'https://github.com/skip1113/clicky-react',
+            demo: 'https://clicky-react-simpsons.herokuapp.com/'
         }
     };
     var modal = document.getElementById('modal');
