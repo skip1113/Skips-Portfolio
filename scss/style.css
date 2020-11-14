@@ -19,6 +19,10 @@ html {
   z-index: 100;
 }
 
+.navbars .navbar-brand {
+  float: left;
+}
+
 .navbars .container a {
   text-decoration: none;
   color: white;
