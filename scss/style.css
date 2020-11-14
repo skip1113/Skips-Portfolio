@@ -8,29 +8,29 @@ html {
 }
 
 .navbar {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
 }
 
 .navbar-fixed-top {
   background-color: #3f3f3f;
+  position: fixed;
   top: 0;
-  position: -webkit-sticky;
-  position: sticky;
+  width: 100%;
+  z-index: 100;
 }
 
-.navbar .container a {
+.navbars .container a {
   text-decoration: none;
   color: white;
 }
 
-.navbar .navbar-menu .nav a {
+.navbars .navbar-menu .nav a {
   margin: 14px;
   font-size: 18px;
   color: #b0b2c3;
 }
 
-.navbar .navbar-menu .nav a:hover {
+.navbars .navbar-menu .nav a:hover {
   color: white;
   font-size: 20px;
   font-style: oblique;
