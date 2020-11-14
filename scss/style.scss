@@ -13,10 +13,13 @@ html {
     top: 0;
     width: 100%;
     z-index: 100;
-    // position: absolute;
+    padding-bottom: 0.7rem;
 }
 .navbars .navbar-brand {
   float: left;
+}
+.navbars .navbar-menu .navbar-end {
+  padding-top: .3125rem;
 }
 .navbars .container a{
     text-decoration: none;
