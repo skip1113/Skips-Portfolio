@@ -413,7 +413,8 @@ footer .social-icons a.button .icon.is-small {
 #linkedin,
 #github,
 #email-link,
-#twitter {
+#twitter,
+#resume {
   transition-property: all;
   transition: ease-in-out 300ms;
   margin: 6px;
@@ -440,6 +441,10 @@ footer .social-icons a.button .icon.is-small {
 
 #twitter:hover {
   color: #3b5998;
+  background-color: white;
+}
+#resume:hover {
+  color: red;
   background-color: white;
 }
 #preload {
