@@ -90,6 +90,11 @@ section.section.skills {
   text-align: center;
 }
 
+.skills .container h4 {
+  text-align: center;
+  font-weight: normal;
+}
+
 .skills .card {
   padding-top: 1em;
 }
@@ -477,7 +482,7 @@ div.control.submit-btn {
 }
 
 footer {
-  background-color: #141c3a;
+  background-color: #0d1530;
   padding-top: 3em;
   padding-bottom: 2em;
 }
