@@ -438,14 +438,14 @@ div.col-2.name-is-half {
   margin: 0 auto;
   clear: both;
   margin-left: 25.5%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 div.col-2.email-is-half {
   margin: 0 auto;
   clear: both;
   margin-right: 30%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .contact-page .container h1 {
@@ -453,7 +453,7 @@ div.col-2.email-is-half {
 }
 
 button.btn {
-  margin-left: 2%;
+  margin-left: 4%;
   background-color: #3f3f3f;
   color: white;
 }
@@ -465,10 +465,17 @@ button.btn {
           justify-content: center;
 }
 
+div.column.messages {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
 .textarea {
   max-width: 100%;
   min-width: 70%;
   margin: 0 auto;
+  width: 76%;
+  font-size: 1.4rem;
 }
 
 div.control.submit-btn {
