@@ -413,6 +413,13 @@ section {
   border-color: #fff;
 }
 
+.button.is-primary.is-outlined:hover {
+  opacity: 1;
+  background-color: #092850;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 #intro-title {
   color: white;
 }
