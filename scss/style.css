@@ -97,6 +97,7 @@ section.section.skills {
 
 .skills .card {
   padding-top: 1em;
+  border-color: #1f3997;
 }
 
 div.project-buttons {
@@ -310,6 +311,8 @@ section {
 
 .portfolio .container h2 {
   text-align: center;
+  font-weight: normal;
+  font-size: 22px;
 }
 
 .portfolio {
