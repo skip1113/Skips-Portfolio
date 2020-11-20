@@ -305,7 +305,6 @@ section {
 .portfolio .portfolio-grid figure:hover .overlay, .portfolio .portfolio-grid figure:hover figcaption {
   opacity: 1;
 }
-
 .portfolio .portfolio-grid figure button {
   z-index: 200;
   // background-color: #232323;
@@ -322,6 +321,12 @@ section {
 }
 .portfolio .portfolio-grid figure figcaption p {
   font-size: 18px;
+}
+.portfolio .container a#email-sub {
+  color: rgb(121, 93, 247);
+}
+.portfolio .container a.pro-btn {
+  color: darkblue;
 }
 .button.is-rounded {
   border-radius: 290486px;
