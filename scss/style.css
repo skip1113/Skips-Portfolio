@@ -46,8 +46,10 @@ html {
 }
 
 #about-section {
-  color: #3f3f3f;
-  background-color: #f3f3f3;
+  color: white;
+  background-color: #767d94;
+  font-size: 14px;
+  font-weight: 400;
   padding: 11.5%;
   background-repeat: no-repeat;
   background-size: cover;
