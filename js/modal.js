@@ -107,7 +107,6 @@ $(document).ready(function () {
         }
     };
     var modal = document.getElementById('modal');
-    // var slide = document.getElementByClassName('slide');
     $('#gallery .button').on('click', function () {
         console.log(this.id);
         fillModal(this.id);
