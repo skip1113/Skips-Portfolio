@@ -377,6 +377,12 @@ section {
   margin-right: 8em;
   font-weight: 400;
 }
+@media screen and (max-width: 736px) {
+  p.contact-subtitle {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 div.col-2.name-is-half {
   margin: 0 auto;
   clear: both;
