@@ -395,6 +395,27 @@ div.col-2.email-is-half {
   margin-right: 30%;
   font-size: 1.2rem;
 }
+@media screen and (max-width: 736px) {
+  div.col-2.name-is-half {
+  //  margin-left: 1rem;
+  margin: 0;
+   margin-right: 2rem;
+  // margin-right: 30rem;
+  }
+  // div.col-2.email-is-half {
+  //   // margin-left: 1px;
+  // }
+  input#name-input.input.is-large {
+    margin-left: -20px;
+    width: 11rem;
+    margin: 0;
+    // padding-right: 20px;
+  }
+  input#email-input.input.is-large {
+    margin-left: -40px;
+    width: 12.5rem;
+  }
+}
 .contact-page .container h1 {
   text-align: center;
 }

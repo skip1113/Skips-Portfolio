@@ -491,6 +491,22 @@ div.col-2.email-is-half {
   font-size: 1.2rem;
 }
 
+@media screen and (max-width: 736px) {
+  div.col-2.name-is-half {
+    margin: 0;
+    margin-right: 2rem;
+  }
+  input#name-input.input.is-large {
+    margin-left: -20px;
+    width: 11rem;
+    margin: 0;
+  }
+  input#email-input.input.is-large {
+    margin-left: -40px;
+    width: 12.5rem;
+  }
+}
+
 .contact-page .container h1 {
   text-align: center;
 }
