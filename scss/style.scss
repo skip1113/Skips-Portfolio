@@ -402,9 +402,6 @@ div.col-2.email-is-half {
    margin-right: 2rem;
   // margin-right: 30rem;
   }
-  // div.col-2.email-is-half {
-  //   // margin-left: 1px;
-  // }
   input#name-input.input.is-large {
     margin-left: -20px;
     width: 11rem;
@@ -414,6 +411,12 @@ div.col-2.email-is-half {
   input#email-input.input.is-large {
     margin-left: -40px;
     width: 12.5rem;
+  }
+  textarea.textarea.is-large {
+    width: 100%;
+  }
+  div.control.submit-btn {
+    margin-left: 34%;
   }
 }
 .contact-page .container h1 {
