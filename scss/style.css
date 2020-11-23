@@ -66,6 +66,16 @@ html {
   text-align: center;
 }
 
+@media screen and (max-width: 736px) {
+  h1.intro-title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  h2.intro-subtitle {
+    font-size: 20px;
+  }
+}
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
