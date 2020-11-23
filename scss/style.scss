@@ -49,7 +49,7 @@ html {
 #about-section {
     color: white;
     // color:#3f3f3f;
-    background-color: #767d94;
+    background-color: #717a97;
     // background-color: #f3f3f3;
     font-size: 14px;
     font-weight: 400;
@@ -411,6 +411,9 @@ div.col-2.email-is-half {
   margin: 0;
    margin-right: 2rem;
   // margin-right: 30rem;
+  }
+  label#email-label.label {
+    margin-left: -2.5rem;
   }
   input#name-input.input.is-large {
     margin-left: -20px;

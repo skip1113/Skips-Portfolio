@@ -57,7 +57,7 @@ html {
 
 #about-section {
   color: white;
-  background-color: #767d94;
+  background-color: #717a97;
   font-size: 14px;
   font-weight: 400;
   padding: 11.5%;
@@ -505,6 +505,9 @@ div.col-2.email-is-half {
   div.col-2.name-is-half {
     margin: 0;
     margin-right: 2rem;
+  }
+  label#email-label.label {
+    margin-left: -2.5rem;
   }
   input#name-input.input.is-large {
     margin-left: -20px;
