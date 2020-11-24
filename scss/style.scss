@@ -648,6 +648,15 @@ footer .social-icons a.button .icon.is-small {
     margin-top: 2rem;
   }
 }
+@media screen and (max-width: 1024px) {
+  .animation-section .box .title h1 {
+    margin-left: 2rem;
+  }
+  .animation-section .box .role p {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+}
 @keyframes mainBlock {
   0% {
     width: 0%;
