@@ -657,6 +657,14 @@ footer .social-icons a.button .icon.is-small {
     margin-left: 2rem;
   }
 }
+@media screen and (max-width: 640px) {
+  .animation-section .box .role p {
+    margin-top: 8rem;
+  }
+  .animation-section .box .role .block {
+    margin-top: 6rem;
+  }
+}
 @keyframes mainBlock {
   0% {
     width: 0%;
