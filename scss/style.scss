@@ -46,6 +46,15 @@ html {
     margin-top: 0px;
   }
 }
+@media screen and (max-width: 640px) {
+  .navbars .container a {
+    font-size: 12px;
+    // margin-bottom: 1rem;
+  }
+  .navbars .navbar-menu .nav a {
+    font-size: 8px;
+  }
+}
 #about-section {
     color: white;
     // color:#3f3f3f;
