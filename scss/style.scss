@@ -46,9 +46,17 @@ html {
     margin-top: 0px;
   }
 }
-@media screen and (max-width: 640px) {
+// @media screen and (max-width: 731px) {
+//   .navbars .container a {
+//     font-size: 18px;
+//   }
+//   .navbars .navbar-menu .nav a {
+//     font-size: 10px;
+//   }
+// }
+@media screen and (max-width: 667px) {
   .navbars .container a {
-    font-size: 12px;
+    font-size: 13px;
     // margin-bottom: 1rem;
   }
   .navbars .navbar-menu .nav a {
