@@ -443,7 +443,7 @@ section {
   color: darkblue;
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (min-width: 736px) {
   div#gallery.portfolio-grid {
     margin-left: 1rem;
   }
