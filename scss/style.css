@@ -493,14 +493,14 @@ section {
 div.col-2.name-is-half {
   margin: 0 auto;
   clear: both;
-  margin-left: 25.5%;
+  margin-left: 25%;
   font-size: 1.2rem;
 }
 
 div.col-2.email-is-half {
   margin: 0 auto;
   clear: both;
-  margin-right: 30%;
+  margin-right: 32%;
   font-size: 1.2rem;
 }
 
