@@ -443,6 +443,12 @@ section {
   color: darkblue;
 }
 
+@media screen and (max-width: 720px) {
+  div#gallery.portfolio-grid {
+    margin: 0;
+  }
+}
+
 .button.is-rounded {
   border-radius: 290486px;
 }
