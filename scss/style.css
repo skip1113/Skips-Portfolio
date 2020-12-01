@@ -244,6 +244,12 @@ div.modal-wrap.flex.visible {
   width: 1000px;
 }
 
+@media screen and (max-width: 732px) {
+  #carousel {
+    margin-top: 3rem;
+  }
+}
+
 .slide {
   cursor: pointer;
   display: -webkit-box;
