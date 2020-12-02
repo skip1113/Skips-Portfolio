@@ -525,6 +525,12 @@ div.col-2.name-is-half {
   font-size: 1.2rem;
 }
 
+@media (min-width: 768px) {
+  div.col-md-8.offset-md-3 {
+    margin-left: 24.3%;
+  }
+}
+
 div.col-2.email-is-half {
   margin: 0 auto;
   clear: both;
