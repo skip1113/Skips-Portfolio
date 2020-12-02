@@ -377,9 +377,17 @@ section {
 .portfolio .container a.pro-btn {
   color: darkblue;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1366px) {
   div#gallery.portfolio-grid {
-    margin: 0;
+    text-align: center;
+    // display: flex;
+  }
+}
+@media screen and (min-width: 720px) {
+  div#gallery.portfolio-grid {
+    text-align: center;
+    display: flex;
+    overflow-y: scroll;
   }
 }
 // @media screen and (min-width: 667px) {
