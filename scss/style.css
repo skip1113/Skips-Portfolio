@@ -461,7 +461,7 @@ section {
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 1081px) {
   div#gallery.portfolio-grid {
     text-align: center;
     display: -webkit-box;
