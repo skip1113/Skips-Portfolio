@@ -426,8 +426,11 @@ section {
   margin: 0 auto;
   position: relative;
   width: auto;
-  padding-top: 5em;
-  // padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+section#contact-intro.section.contact-page {
+  margin-top: 4rem;
 }
 .contact-subtitle {
   text-align: center;
