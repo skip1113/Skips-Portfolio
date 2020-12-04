@@ -79,7 +79,7 @@ img#self-img {
   background-color: #838caa;
   font-size: 14px;
   font-weight: 400;
-  padding: 11.5%;
+  padding: 9.5%;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -114,8 +114,7 @@ section.section.skills img {
 
 section.section.skills {
   background-color: #fff;
-  padding-bottom: 2rem;
-  padding-top: 1em;
+  padding: 9%;
 }
 
 .skills .container h1 {
@@ -370,8 +369,7 @@ section {
 
 .portfolio {
   background-color: #f3f3f3;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 9%;
 }
 
 .portfolio .portfolio-grid figure {
@@ -509,8 +507,7 @@ section {
   margin: 0 auto;
   position: relative;
   width: auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 5em;
 }
 
 .contact-subtitle {
@@ -581,6 +578,10 @@ button.btn {
   margin-left: 4%;
   background-color: #3f3f3f;
   color: white;
+}
+
+section.contact-form {
+  margin-bottom: 3rem;
 }
 
 .columns.is-centered {
